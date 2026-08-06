@@ -1,0 +1,9 @@
+country_code,country,program_name,eligibility_type,eligibility_age,male_age,female_age,source_confidence,notes
+bol,Bolivia,Renta Dignidad,single_age,60,,,high,"Act No. 3791 (2007); source: Global Country Table for Elderly Social Protection and MICS Alignment.pdf, cited to ILO/World Bank"
+bwa,Botswana,Old Age Pension,single_age,65,,,high,"Universal since 1996; source: Global Country Table for Elderly Social Protection and MICS Alignment.pdf, cited to ILO"
+swz,Eswatini,Old Age Grant,single_age,60,,,high,"Cabinet resolution 2005; source: ref/countries/swaziland.pdf (2007 CANGO/RHVP case study), cross-checked against Global Country Table"
+lso,Lesotho,Old Age Pension,single_age,70,,,high,"Since 2004; source: Global Country Table for Elderly Social Protection and MICS Alignment.pdf, cited to ILO/World Bank"
+mus,Mauritius,Basic Pension,single_age,60,,,high,"Since 1951; source: Global Country Table for Elderly Social Protection and MICS Alignment.pdf, cited to World Bank"
+nam,Namibia,Old Age Grant (National Pensions Act),single_age,60,,,high,"National Pensions Act 1992; source: Global Country Table for Elderly Social Protection and MICS Alignment.pdf, cited to ILO/natlex"
+cpv,Cabo Verde,,,,,,unconfirmed,"Noted as near-universal non-contributory social pension case, but no specific qualifying age given in available sources -- needs dedicated lookup before use"
+chl,Chile,,,,,,unconfirmed,"Noted as near-universal old-age coverage (ILO 2017-19 review); likely mixes contributory + Pensión Básica Solidaria tiers, may need sex_specific or tiered eligibility_type rather than single_age -- needs dedicated lookup before use, do not guess an age"

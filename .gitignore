@@ -1,0 +1,14 @@
+# Raw/derived data -- not published, see ANTHRO_EXTENSION_PLAN.md
+intermediate/
+harmonized_outcomes/
+
+# R project cruft
+.Rhistory
+.Rproj.user/
+.RData
+
+# OS
+.DS_Store
+
+# Generated, redundant with the .md source
+ANTHRO_EXTENSION_PLAN.html
