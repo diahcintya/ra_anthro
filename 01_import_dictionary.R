@@ -148,6 +148,26 @@ country_config <- tibble(
   country_code = c("swz", "lso", "bol", "bwa", "nam"),
   country = c("Eswatini", "Lesotho", "Bolivia", "Botswana", "Namibia"),
   source_type = c("mics6", "mics6", "dhs", "mics2000", "dhs"),
+  survey_id = c(
+    "swz_mics_2021_2022", "lso_mics_2018", "bol_dhs_2008",
+    "bwa_mics_2000", "nam_dhs_2013"
+  ),
+  survey_name = c(
+    "Eswatini Multiple Indicator Cluster Survey 2021-2022",
+    "Lesotho Multiple Indicator Cluster Survey 2018",
+    "Bolivia Demographic and Health Survey 2008",
+    "Botswana Multiple Indicator Cluster Survey 2000",
+    "Namibia Demographic and Health Survey 2013"
+  ),
+  survey_start_year = c(2021L, 2018L, 2008L, 2000L, 2013L),
+  survey_end_year = c(2022L, 2018L, 2008L, 2000L, 2013L),
+  anthro_source_file = c(
+    "eswatini/mics6/ch.sav",
+    "lesotho/mics6/ch.sav",
+    "BOKR51FL.SAV",
+    "underfive.sav",
+    "NMKR61FL.SAV"
+  ),
   paths = list(
     "eswatini/mics6",
     "lesotho/mics6",
